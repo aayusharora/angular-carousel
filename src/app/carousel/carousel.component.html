@@ -1,0 +1,11 @@
+<div class="card-stack" #carousel>
+  <div *ngFor="let i of imageArray" class="card o-layout-card ">
+     <img src="{{i.img}}" alt="{{i.alt}}">
+  </div>
+</div>
+<div class="card-stack-btn">&nbsp;&nbsp;&nbsp;
+  <button class="next" #nextbtn (click)="nextEle()">&lt;&nbsp;Prev
+    &nbsp;&nbsp;|&nbsp;&nbsp;
+  </button>
+  <button class="next" #prevbtn (click)="prevEle()">Next&nbsp;&gt;</button>&nbsp;
+</div>

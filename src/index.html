@@ -1,0 +1,15 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="UTF-8">
+  <title>Custom Button Test Page</title>
+  <script src="elements.js"></script>
+  <link rel="stylesheet" href="styles.css"></head>
+
+<body>
+<motley-carousel imageArray= [] ></motley-carousel>
+</body>
+<script>
+  // Even after making the array blank, the array does not get updated
+  let carousel = document.querySelector('motley-carousel');
+  carousel.imageArray = [];
+</script>
+</html>
