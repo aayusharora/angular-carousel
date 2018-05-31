@@ -21,7 +21,7 @@ npm run serve
 - Replace the images but not the names 
 
 ## Live Demo
-<img src="demo/demo.gif">
+<img src="demo.gif">
 
 ### For complete code: Please check
 <a href="https://github.com/aayusharora/motley-components/tree/master/motley-carousel">motley-components</a>
